@@ -22,7 +22,7 @@
         },
         "API_KEY": {
             "description": "Get API key from https://gplinks.in/member/tools/api",
-            "value": ""
+            "value": "c5b9552137eb1804a96e598e5d8feef61dce1e4e"
         },
         "CHANNEL": {
             "description": "Your Backup channel link",
