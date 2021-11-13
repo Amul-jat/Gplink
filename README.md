@@ -13,3 +13,5 @@ Make short link by using [GPlink](https://gplinks.in/) API key
 * `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
 * `API_KEY`: Create [GPlink](https://gplinks.in/) account then get this value from [GPlink API](https://gplinks.in/member/tools/api)
+* `CHANNEL`: Your Backup channel
+* `HOWTO`: Your "How to Download from Droplink" video link
