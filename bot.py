@@ -13,6 +13,8 @@ API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 API_KEY = environ.get('API_KEY')
+CHANNEL = environ.get('CHANNEL')
+HOWTO = environ.get('HOWTO')
 
 
 bot = Client('Droplink bot', 
@@ -115,6 +117,14 @@ async def new_pdisk_url(urls):
         time.sleep(0.2)
         new_urls.append(await pdisk_up(i))
     return new_urls  
-            
+ 
+
+async def addFooter(str):
+    footer = """
+    ━━━━━━━━━━━━━━━
+⚙️ How to Download / Watch Online :""" + HOWTO + """
+━━━━━━━━━━━━━━━
+⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+    return str + footer
         
 bot.run()
