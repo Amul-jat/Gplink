@@ -14,15 +14,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "7626510"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
         },
         "API_KEY": {
             "description": "Get API key from https://gplinks.in/member/tools/api",
-            "required": false
+            "value": ""
+        },
+        "CHANNEL": {
+            "description": "Your Backup channel link",
+            "value": "https://t.me/Desi_Bhabhi_Aunty_hot_Video"
+        },
+        "HOWTO": {
+            "description": "Your 'How to Download from Gplink' video link",
+            "value": "https://t.me/Desi_Bhabhi_Aunty_hot_Video/25"
         }
     },
     "addons": [],
